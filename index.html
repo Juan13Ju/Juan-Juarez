@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Juan-Juarez Site</title>
 </head>
 <body>
 
     <header class="hero">
 
-        <nav class="nav">
+        <nav class="nav container">
             <div class="nav_logo">
                 <h2 class="nav_title">Juan Juarez</h2>
             </div>
 
-            <ul class="nav_link">
-                <li class="nav_items">Home</li>
-                <li class="nav_items">About me</li>
-                <li class="nav_items">Projects</li>
+            <ul class="nav_menu">
+                <li class="nav_item"><a class="nav_link" href="#">Home</a></li>
+                <li class="nav_item"><a class="nav_link" href="#">About me</a></li>
+                <li class="nav_item"><a class="nav_link" href="#">Projects</a></li>
             </ul>
         </nav>
+
+        <section class="hero_text container">
+            <h2 class="hero_title">Hi! I'm Juan, Welcome to my page!</h2>
+            <p class="hero_paragraph">
+                I'm a Computer Science student at UNAM, Mexico. I enjoy tasks related to programming
+                and I'm always learning something. If you want to contact me, follow the links below or
+                email me at <span class="hero_email"> juanju13@ciencias.unam.mx</span>
+            </p>
+            <div class="hero_contactLinks">
+                <a href="https://github.com/Juan13Ju" target="_blank" class="hero_contactLogo"><img src="img/github.svg" alt="" class="hero_logo"></a>
+                <a href="https://www.instagram.com/juan_ju13/" target="_blank" class="hero_contactLogo"><img src="img/instagram.svg" alt="" class="hero_logo"></a>
+            </div>
+        </section>
     </header>
 </body>
 </html>
