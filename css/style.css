@@ -92,6 +92,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding-top: 1.5em;
+    color: #fff;
 }
 
 .nav_title{
@@ -109,7 +110,30 @@ body{
 }
 
 .nav_link{
-    color: #fff;
     text-decoration: none;
+    color: #fff;
 }
+
+/*About me page*/
+.body_aboutMe{
+    background-color: #111;
+    color: #fff;
+}
+ 
+.aboutMe_introduction{
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe_overlapArea{
+    height: max-content;
+    padding-top: 3em;
+    max-width: 45%;
+    max-height: 500px;
+    overflow: scroll;
+}
+
 
